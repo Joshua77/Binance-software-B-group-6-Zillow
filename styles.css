@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.body{
+    font-family:sans-serif;
+    background-color: #ddd;
+}
+
+.contain-sign{
+    width: 95%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+}
+
+
+
+.btn-container{
+    
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+
+.btn{
+    
+    justify-content: center;
+}
+
+.btn-container h2{
+    font-size: 20px;
+    color: black;
+    padding: 8px;
+    margin: 30px 20px auto 50px;
+}
+
+.btn-container p{
+    font-size: 16px;
+    color: rgb(63, 61, 61);
+    padding: 10px;
+    padding-bottom: 40px;
+    margin: auto 30px;
+}
+
+
+.btn-container button{
+    padding: 8px 12px;
+    background-color: transparent;
+    margin: 0px 150px;
+    font-size: 16px;
+    outline: none;
+    color: #1277e1;
+    border: solid 1px #1277e1;
+    border-radius: 6px;
+    transition: all 0.5 ease-in-out;
+
+}
+
+.btn-container button:hover{
+    background-color: #1277e1;
+    color: white;
+}
+
+
+
+
+.sign{
+    width: 62%;
+    background-color: white;
+}
+
+
+
+/*Find a Home SECTION*/
+
+
+.contain{
+    width:94%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+}
+
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-hero{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+.buy-a-home{
+    width: 31%;
+    margin: 50px auto;
+    background-color: white;
+    padding-top: 40px;
+    box-shadow: 0 0 10px 0 rgba(0,0, 0, .1);
+    transition: all 0.4 ease-in-out;
+    border-radius: 6px;
+    
+    
+
+}
+
+
+.buy-a-home:hover{
+    transform: scale(1.05);
+
+}
+
+
+.content{
+    
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.content h2{
+    margin: 0px;
+    color: black;
+    padding: 0px;
+}
+
+.content p{
+    line-height: 1.5;
+    padding: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.content button{
+    padding: 8px 12px;
+    background-color: transparent;
+    margin: 0px;
+    font-size: 16px;
+    outline: none;
+    color: #1277e1;
+    border: solid 1px #1277e1;
+    border-radius: 6px;
+    transition: all 0.5 ease-in-out;
+}
+
+.content button:hover{
+    background-color: #1277e1;
+    color: white;
+}
+
+
+.dropdown-btn{
+    padding: 20px 0;
+    display: flex;
+    place-items: center;
+}
+
+.dropdown-btn button{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+}
+
+.dropdown-btn button::before{
+    content:"";
+    height: 30px;
+    width: 2px;
+    background-color: black;
+    margin: 0 40px;
+
+}
+
+dropdown-btn:first-child::before{
+    display: none;
+}
+
+
+.arrow{
+    border: rgba(58, 26, 243);
+    border-width: 0 20px 20px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down{
+    transform: rotate(45deg);
+}
+
+.border-bottom{
+    border-bottom: 1px solid #ddd;
+}
+
+.justify-center{
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.d-flex .justify-center li{
+    outline: none;
+    list-style: none;
+    padding: 10px;
+}
+
+.d-flex .justify-center li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.d-flex .justify-center li{
+    outline: none;
+    list-style: none;
+    padding: 10px;
+}
