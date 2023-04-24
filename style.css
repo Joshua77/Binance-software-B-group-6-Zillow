@@ -61,7 +61,6 @@ nav{
 
 /* CSS code for the Trending and Recommendations Section */
 
-
 .contain-sign{
     width: 95%;
     margin: 0;
@@ -71,16 +70,13 @@ nav{
 }
 
 
-
 .btn-container{
-    
     margin: 0;
     padding: 20px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 
 .btn-container h2{
     font-size: 20px;
@@ -90,8 +86,8 @@ nav{
 }
 
 .btn-container p{
-    font-size: 16px;
-    color: rgb(63, 61, 61);
+    font-size: 18px;
+    color: rgb(105, 98, 98);
     padding: 10px;
     padding-bottom: 40px;
     margin: auto 30px;
@@ -121,8 +117,6 @@ nav{
     background-color: white;
 }
 
-
-
 /*Find a Home SECTION*/
 
 
@@ -132,7 +126,6 @@ nav{
     padding: 0;
     background-color: #fff;
 }
-
 
 .d-flex{
     display: flex;
@@ -203,8 +196,6 @@ img{
     color: white;
 }
 
-/* More Options with Drop Down Arrow */
-
 
 .dropdown-btn{
     padding: 20px 0;
@@ -213,36 +204,27 @@ img{
 }
 
 .dropdown-btn button{
+    border: none;
     outline: none;
     background-color: transparent;
-    border: none;
     font-size: 16px;
 }
 
 .dropdown-btn button::before{
     content:"";
-    height: 30px;
+    height: 90%;
     width: 2px;
     background-color: black;
-    margin: 0 40px;
+    position: absolute;
+    
 
+    
 }
 
 dropdown-btn:first-child::before{
     display: none;
 }
 
-
-.arrow{
-    border: rgba(58, 26, 243);
-    border-width: 0 20px 20px 0;
-    display: inline-block;
-    padding: 3px;
-}
-
-.down{
-    transform: rotate(45deg);
-}
 
 .border-bottom{
     border-bottom: 1px solid #ddd;
@@ -252,9 +234,6 @@ dropdown-btn:first-child::before{
     justify-content: center;
     padding: 10px 0;
 }
-
-
-/* CSS code for the About Links (close to the End of the Page)*/
 
 .d-flex .justify-center li{
     outline: none;
