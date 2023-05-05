@@ -1,177 +1,154 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.body{
-    font-family:sans-serif;
-    background-color: #ddd;
+.body {
+  font-family: sans-serif;
+  background-color: #ddd;
 }
 
-.contain-sign{
-    width: 95%;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-    display: flex;
+.contain-sign {
+  width: 95%;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  display: flex;
 }
 
-
-
-.btn-container{
-    
-    margin: 0;
-    padding: 20px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
-
+.btn-container {
+  margin: 0;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.btn-container h2{
-    font-size: 20px;
-    color: black;
-    padding: 8px;
-    margin: 30px 20px auto 50px;
+.btn-container h2 {
+  font-size: 20px;
+  color: black;
+  padding: 8px;
+  margin: 30px 20px auto 50px;
 }
 
-.btn-container p{
-    font-size: 18px;
-    color: rgb(105, 98, 98);
-    padding: 10px;
-    padding-bottom: 40px;
-    margin: auto 30px;
+.btn-container p {
+  font-size: 18px;
+  color: rgb(105, 98, 98);
+  padding: 10px;
+  padding-bottom: 40px;
+  margin: auto 30px;
 }
 
-
-.btn-container button{
-    padding: 8px 12px;
-    background-color: transparent;
-    margin: 0px 150px;
-    font-size: 16px;
-    outline: none;
-    color: #1277e1;
-    border: solid 1px #1277e1;
-    border-radius: 6px;
-    transition: all 0.5 ease-in-out;
-
+.btn-container button {
+  padding: 8px 12px;
+  background-color: transparent;
+  margin: 0px 150px;
+  font-size: 16px;
+  outline: none;
+  color: #1277e1;
+  border: solid 1px #1277e1;
+  border-radius: 6px;
+  transition: all 0.5 ease-in-out;
 }
 
-.btn-container button:hover{
-    background-color: #1277e1;
-    color: white;
+.btn-container button:hover {
+  background-color: #1277e1;
+  color: white;
 }
 
-
-
-
-.sign{
-    width: 62%;
-    background-color: white;
+.sign {
+  width: 62%;
+  background-color: white;
 }
-
-
 
 /*Find a Home SECTION*/
 
-
-.contain{
-    width:94%;
-    margin: 0 auto;
-    padding: 0;
-    background-color: #fff;
+.contain {
+  width: 94%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #fff;
 }
 
-
-.d-flex{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.content-hero{
-    width: 80%;
-    margin: 0 auto;
-    padding: 0;
+.content-hero {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
 }
 
-img{
-    width: 100%;
-    object-fit: cover;
+img {
+  width: 100%;
+  object-fit: cover;
 }
-.buy-a-home{
-    width: 31%;
-    margin: 50px auto;
-    background-color: white;
-    padding-top: 40px;
-    box-shadow: 0 0 10px 0 rgba(0,0, 0, .1);
-    transition: all 0.4 ease-in-out;
-    border-radius: 6px;
-    
-    
-
+.buy-a-home {
+  width: 31%;
+  margin: 50px auto;
+  background-color: white;
+  padding-top: 40px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.4 ease-in-out;
+  border-radius: 6px;
 }
 
-
-.buy-a-home:hover{
-    transform: scale(1.05);
-
+.buy-a-home:hover {
+  transform: scale(1.05);
 }
 
-
-.content{
-    
-    margin: 0;
-    padding: 20px 0;
-    text-align: center;
+.content {
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
 }
 
-.content h2{
-    margin: 0px;
-    color: black;
-    padding: 0px;
+.content h2 {
+  margin: 0px;
+  color: black;
+  padding: 0px;
 }
 
-.content p{
-    line-height: 1.5;
-    padding: 20px;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
+.content p {
+  line-height: 1.5;
+  padding: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
 }
 
-.content button{
-    padding: 8px 12px;
-    background-color: transparent;
-    margin: 0px;
-    font-size: 16px;
-    outline: none;
-    color: #1277e1;
-    border: solid 1px #1277e1;
-    border-radius: 6px;
-    transition: all 0.5 ease-in-out;
+.content button {
+  padding: 8px 12px;
+  background-color: transparent;
+  margin: 0px;
+  font-size: 16px;
+  outline: none;
+  color: #1277e1;
+  border: solid 1px #1277e1;
+  border-radius: 6px;
+  transition: all 0.5 ease-in-out;
 }
 
-.content button:hover{
-    background-color: #1277e1;
-    color: white;
+.content button:hover {
+  background-color: #1277e1;
+  color: white;
 }
 
-
-.dropdown-btn{
-    padding: 20px 0;
-    display: flex;
-    place-items: center;
+.dropdown-btn {
+  padding: 20px 0;
+  display: flex;
+  place-items: center;
 }
 
-.dropdown-btn button{
-    border: none;
-    outline: none;
-    background-color: transparent;
-    font-size: 16px;
+.dropdown-btn button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
 }
 
 /**
@@ -192,138 +169,129 @@ dropdown-btn:first-child::before{
 
 **/
 
-.border-bottom{
-    border-bottom: 1px solid #ddd;
+.border-bottom {
+  border-bottom: 1px solid #ddd;
 }
 
-.justify-center{
-    justify-content: center;
-    padding: 10px 0;
+.justify-center {
+  justify-content: center;
+  padding: 10px 0;
 }
 
-.justify-center-footer{
-    justify-content: center;
-    padding: 0px 0;
+.justify-center-footer {
+  justify-content: center;
+  padding: 0px 0;
 }
 
-.top-margin{
-    margin-top: 25px;
+.top-margin {
+  margin-top: 25px;
 }
 
-.bottom-margin{
-    margin-bottom: 25px;
+.bottom-margin {
+  margin-bottom: 25px;
 }
-.d-flex .justify-center-footer li{
-    outline: none;
-    list-style: none;
-    padding: 5px;
-}
-
-.d-flex .justify-center-footer li a{
-    text-decoration: none;
-    color: black;
+.d-flex .justify-center-footer li {
+  outline: none;
+  list-style: none;
+  padding: 5px;
 }
 
-
-.d-flex .justify-center-footer li{
-    outline: none;
-    list-style: none;
-    padding: 10px;
+.d-flex .justify-center-footer li a {
+  text-decoration: none;
+  color: black;
 }
 
-
-
-
-
-
-
-.d-flexfooter{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.d-flex .justify-center-footer li {
+  outline: none;
+  list-style: none;
+  padding: 10px;
 }
 
-.footer-hero{
-    width: 60%;
-    margin: 0 auto;
-    padding: 0;
+.d-flexfooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.footer-content{
-    text-align: center;
-    justify-content: center;
-    font-size: 12px;
-    font-weight: 200;
-    margin: 10px;
-    padding: 5px;
-    color: grey;
+.footer-hero {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0;
 }
 
-.footer-license{
-    text-align: center;
-    justify-content: center;
-    font-size: 12px;
-    font-weight: 200;
-    margin: 0px;
-    padding: 0px;
-    color: grey;
+.footer-content {
+  text-align: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 200;
+  margin: 10px;
+  padding: 5px;
+  color: grey;
 }
 
-.appstore-flex{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-.applestore{
-    width: 10.2%;
-    margin: 8px;
+.footer-license {
+  text-align: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 200;
+  margin: 0px;
+  padding: 0px;
+  color: grey;
 }
 
-.playstore{
-    width: 12%;
-    object-fit: contain;
+.appstore-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.applestore {
+  width: 10.2%;
+  margin: 8px;
 }
 
-.socialicon-flex{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+.playstore {
+  width: 12%;
+  object-fit: contain;
 }
 
-.socialicon-flex p{
-    font-size: 12px;
-}
-.zillow-footer{
-    width: 16%;
-    margin: 8px;
-}
-
-.equal-housing{
-    width: 3.5%;
-    margin: 8px;
+.socialicon-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
+.socialicon-flex p {
+  font-size: 12px;
+}
+.zillow-footer {
+  width: 16%;
+  margin: 8px;
+}
 
+.equal-housing {
+  width: 3.5%;
+  margin: 8px;
+}
 
 /* Footer Image */
 
-.image-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.footer-image{
-    width: 90%;
-    margin: 45px auto 0 auto;
-    padding: 0;
+.footer-image {
+  width: 90%;
+  margin: 45px auto 0 auto;
+  padding: 0;
 }
 
-img{
-    width: 100%;
-    object-fit: cover;
+img {
+  width: 100%;
+  object-fit: cover;
 }
