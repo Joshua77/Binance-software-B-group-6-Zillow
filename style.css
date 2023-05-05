@@ -4,6 +4,63 @@
   box-sizing: border-box;
 }
 
+/* **********Nav Section */
+
+nav{
+  display: flex;
+  background-color: #fff;
+  color: #464343;
+  justify-content: space-between;
+  padding: 24px 40px 24px 10px;
+}
+.nav-list{
+  list-style: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.nav-list-item{
+  margin-left: 30px;
+  font-family: sans-serif;
+}
+
+
+/* ************* Hero Section************ */
+
+.hero-section {
+  background-image: url("assets/hero-img.webp"); 
+  background-color: #9ed2eb; 
+  height: 420px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+.hero-content{
+  width: 50%;
+  margin: auto;
+  padding-top: 80px;
+}
+.hero-text{
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.hero-input-field{
+  color: #a09a9a;
+  font-size: 1rem;
+  padding: 1.7rem 1rem;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-weight: 550;
+}
+
+
+/* Please add comment to CSS code for each section */
+
 .body {
   font-family: sans-serif;
   background-color: #ddd;
